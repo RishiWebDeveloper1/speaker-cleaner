@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="#">
+    <meta name="description" content="#">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="#">
+    <meta property="og:description" content="#">
+    <meta property="og:url" content="#">
+    <meta property="og:image" content="#">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:title" content="#">
+    <meta property="twitter:description" content="#">
+    <meta property="twitter:image" content="#">
+
+    <!-- whatsapp -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="#">
+    <meta property="og:description" content="#">
+    <meta property="og:image" itemprop="image" content="#">
+    <meta property="og:url" content="URL of your page">
+    <meta property="og:whatsapp" content="send">
+
+    <title>Repair Tooler - Speaker cleaner</title>
+    <link rel="shortcut icon" href="../image/speaker-icon.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="../css\speaker-cleaner.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Speaker Cleaner</div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav id="nav">
+            <ul>
+                <li style=" width: 50px;">
+                    <a href="/" class="#" style=" width: 40px;">HoMe</a>
+                </li>
+                <li style="width: 90px;">
+                    <a href="/Contact" class="#" style="width: 82px;">Contact Us</a>
+                </li>
+                <li style="width: 55px;">
+                    <a href="/About" class="#" style="width: 45px;">About</a>
+                </li>
+                <li style="width: 45px;">
+                    <a href="/Help" class="#" style="width: 35px;">Help</a>
+                </li>
+                <!-- <li>
+            <a href="">About</a>
+        </li> -->
+            </ul>
+        </nav>
+        <label for="nav_check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+    </header>
+    <main>
+        <div class="container">
+            <div class="imgHolder">
+                <img id="img" src="../image\speaker-icon.jpg"
+                    alt="no image avalible">
+            </div>
+            <div class="button-box">
+                <div class='Play button' onclick="play()"> Play </div>
+                <div class='Pause button' onclick="pause()"> Pause </div>
+            </div>
+            <div id="note">
+                Note:- &nbsp Make sure that device VOLUME is (100%).
+            </div>
+        </div>
+        <div class="box">
+            <audio id='sound' src="..\audio\Wateroutspeakers.mp3" loop></audio>
+        </div>
+
+        <script src="../js\speakerCleaner.js"></script>
+    </main>
+</body>
+
+</html>
